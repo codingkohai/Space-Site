@@ -1,14 +1,18 @@
 body {
     color: white;
-    background-image: url("https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
-    background-size: cover;
     text-align: center;
 }
 
+.hero{
+    background-image: url("https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
 h1 {
     font-family: 'Monoton', cursive;
     font-size: 40px;
     font-weight: lighter;
+    word-spacing: 15px;
 }
 
 .btn {
@@ -21,4 +25,16 @@ h1 {
 
 span{
     border-bottom: 4px solid white;
+}
+
+#main-logo{
+    image-size: 2%;
+    width: 200px;
+    margin-bottom: -45px;
+}
+
+h3 {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: smaller;
 }
